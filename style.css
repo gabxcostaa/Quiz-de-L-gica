@@ -1,0 +1,29 @@
+/* Estilo para a div de perguntas */
+#perguntas {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+}
+
+/* Estilo para os botões de alternativas */
+.botao-alternativa {
+    display: block; /* Garante que cada botão fique em uma linha */
+    margin: 5px 0; /* Reduz o espaçamento entre os botões */
+    padding: 5px; /* Reduz o preenchimento interno do botão */
+    font-size: 14px; /* Diminui o tamanho do texto */
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    width: auto; /* O botão ajusta à largura do texto */
+    max-width: 300px; /* Limita a largura máxima */
+    box-sizing: border-box;
+}
+
+/* Estilo ao passar o mouse sobre o botão */
+.botao-alternativa:hover {
+    background-color: #e6f7ff;
+    border-color: #007bff;
+    transition: linear 0.2s;
+    font-size: 15px;
+}
